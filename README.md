@@ -5,10 +5,20 @@ So simple to use
 
 ```
 $ npm i -g console-translator
-$ npm run t length
+$ npm run console-translator length
 
-> consoleTranslator@1.0.0 t /Users/{whoami}/apps/console-translator
+> consoleTranslator@1.0.10 console-translator /Users/{whoami}/apps/console-translator
 > node index.js "length"
 
   length |на русском-> Длина
 ```
+
+in .bashrc add:
+```
+export PATH=./node_modules/.bin:$PATH
+```
+in terminal:
+```
+console-translator hi
+
+hi |на русском-> Здравствуй
