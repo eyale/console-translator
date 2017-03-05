@@ -4,7 +4,7 @@
   "description": "the best console from english to russian translator ever",
   "main": "index.js",
   "scripts": {
-    "console-translator": "node index",
+    "console-translator": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
