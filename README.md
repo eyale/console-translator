@@ -1,3 +1,4 @@
+# [npm](https://www.npmjs.com/package/console-translator)
 This is my public package
 It can translate from english to russian just in console
 
@@ -22,3 +23,4 @@ in terminal:
 console-translator hi
 
 hi |на русском-> Здравствуй
+```
