@@ -1,0 +1,15 @@
+{
+  "name": "consoleTranslator",
+  "version": "1.0.0",
+  "description": "the best console from english to russian translator ever",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-translate-api": "^2.2.2"
+  }
+}
