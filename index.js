@@ -1,9 +1,4 @@
-const translate = require('google-translate-api'),
-      translateRequest = process.argv[2];
+const ConsoleTranslator = require('./lib');
+const translator = ConsoleTranslator();
 
-
-translate(translateRequest, {to: 'ru'})
-  .then(res => {
-    console.log(`${translateRequest} |на русском-> ${res.text}`);
-  })
-  .catch(err => { console.error(err) });
+process.stdin.emit('data', translator);
