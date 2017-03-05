@@ -5,6 +5,10 @@ So simple to use
 
 ```
 $ npm i -g console-translator
-$ t length
-  length на русском: Длина
+$ npm run t length
+
+> consoleTranslator@1.0.0 t /Users/{whoami}/apps/console-translator
+> node index.js "length"
+
+  length |на русском-> Длина
 ```

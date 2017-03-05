@@ -4,6 +4,6 @@ const translate = require('google-translate-api'),
 
 translate(translateRequest, {to: 'ru'})
   .then(res => {
-    console.log(`${translateRequest} на русском: ${res.text}`);
+    console.log(`${translateRequest} |на русском-> ${res.text}`);
   })
   .catch(err => { console.error(err) });
