@@ -1,11 +1,14 @@
 {
   "name": "console-translator",
-  "version": "1.0.1",
+  "version": "1.0.6",
   "description": "the best console from english to russian translator ever",
   "main": "index.js",
   "scripts": {
-    "t": "node /usr/local/lib/node_modules/console-translator/",
+    "t": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "t": "./bin/console-translator"
   },
   "keywords": [],
   "author": "",
