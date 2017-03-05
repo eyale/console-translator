@@ -1,5 +1,5 @@
 {
-  "name": "consoleTranslator",
+  "name": "console-translator",
   "version": "1.0.0",
   "description": "the best console from english to russian translator ever",
   "main": "index.js",
