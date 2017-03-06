@@ -1,12 +1,3 @@
-const translate = require('google-translate-api'),
-      translateRequest = process.argv[2];
+const translate = require('google-translate-api');
 
-module.exports = function(translateRequestNotFromConsole) {
-  const translateVariable = translateRequestNotFromConsole || translateRequest;
-
-  translate(translateVariable, {to: 'ru'})
-    .then(res => {
-     console.log(`<|   ${translateVariable} |на русском-> ${res.text}   |>`);
-  })
-  .catch(err => { console.error(err) });
-}
+module.exports = (str, lang = 'ru') => translate(str, {to: lang}).catch(console.error);

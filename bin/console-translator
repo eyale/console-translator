@@ -2,4 +2,5 @@
 
 const translator = require('..');
 
-process.stdin.emit('data', translator());
+const [ , , str, lang] = process.argv;
+translator(str, lang).then((res) => console.log(res.text));
