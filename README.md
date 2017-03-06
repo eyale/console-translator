@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/eyale/console-translator.svg?branch=master)](https://travis-ci.org/eyale/console-translator)
+
 # [npm](https://www.npmjs.com/package/console-translator)
 This is my public package
 It can translate from english to russian just in console
