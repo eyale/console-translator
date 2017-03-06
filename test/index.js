@@ -1,6 +1,15 @@
 const assert = require('assert');
 const mod = require('..');
 
+// function readModule(name) {
+//   return new Promise((resolve,reject) => {
+//     fs.readFile(name,(err,content) => {
+//       if(err) return reject(err);
+//       resolve(content.toString());
+//     })
+//   })
+// }
+
 describe('test1', function() {
 
   it('do', function() {
