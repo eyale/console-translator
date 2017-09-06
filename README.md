@@ -129,3 +129,7 @@ languages = {
     'zu': 'Zulu'
 }
 ```
+
+If you want new features or to fix bug, feel free to write to me:
+
+`4eyalush@gmail.com`
